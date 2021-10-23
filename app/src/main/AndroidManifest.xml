@@ -15,9 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ImageGallery">
         <activity
-            android:name=".activity.FullImageActivity"
-            android:exported="true" />
-        <activity
             android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>

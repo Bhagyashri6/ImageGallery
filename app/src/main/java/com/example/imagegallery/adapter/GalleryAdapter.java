@@ -1,9 +1,6 @@
 package com.example.imagegallery.adapter;
 
 import android.content.Context;
-import android.content.Intent;
-import android.media.Image;
-import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -17,8 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.imagegallery.R;
-import com.example.imagegallery.activity.FullImageActivity;
-import com.example.imagegallery.model.ImageGallery;
 import com.example.imagegallery.model.Urls;
 
 import java.util.List;

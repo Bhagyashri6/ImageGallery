@@ -88,7 +88,7 @@ public class SlideshowDialogFragment extends DialogFragment {
     };
 
     private void displayMetaInfo(int position) {
-        lblCount.setText((position + 1) + " of " + images.size());
+        lblCount.setText((position + 1) + " / " + images.size());
         Urls image = images.get(position);
 
     }
